@@ -1,30 +1,7 @@
-# Fusion Table Searchable Map Template
-You want to put your data on a searchable, filterable map. This is a free, open source template to help you do it.
-
-[![Searchable Map Template screenshot](https://raw.github.com/derekeder/FusionTable-Map-Template/master/images/searchable-map-template-v1.2.jpg)](http://derekeder.github.io/FusionTable-Map-Template/)
-
-[See the working demo &raquo;](http://derekeder.github.io/FusionTable-Map-Template/)
-
-## Features
-
-* full screen, iframe and content templates
-* display up to 100,000 map points
-* address search (with variable radius and geocomplete)
-* geolocation (find me!)
-* results count
-* RESTful URLs for sharing searches
-* ability to easily add additional search filters (checkboxes, sliders, etc)
-* mobile and tablet friendly using responsive design
-* built with HTML, CSS and Javascript - no server side code required
 
 
-## Releases
+[See the working demo &raquo;](http://ziegegeist.github.io/Chicago_Nursing_Home_Search/)
 
-* [v 1.4](https://github.com/derekeder/FusionTable-Map-Template/releases/tag/v1.4) - iframe template, MapsLib class
-* [v 1.3](https://github.com/derekeder/FusionTable-Map-Template/releases/tag/v1.3) - Bootstrap 3.2, more robust query function, dynamic zoom
-* [v 1.2](https://github.com/derekeder/FusionTable-Map-Template/releases/tag/v1.2) - Bootstrap 3, jQuery 1.10.2, jQuery Address 1.6
-* [v 1.1](https://github.com/derekeder/FusionTable-Map-Template/releases/tag/v1.1) - Bootstrap 2.0.3, jQuery 1.7.1, jQuery Address 1.4 
-  
 ## Dependencies
 
 * [Google Fusion Tables](http://www.google.com/fusiontables/Home)
@@ -102,36 +79,6 @@ Take a look at the [wiki](https://github.com/derekeder/FusionTable-Map-Template/
 * [Sliders](https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-sliders)
 * [Date sliders](https://github.com/derekeder/FusionTable-Map-Template/wiki/Filter-examples#wiki-date-sliders)
 
-## iframe Template
-
-If you want to embed the template in a page on your website, the easiest way to do it is with an iframe. We provide an iframe-optimized template for this purpose:
-
-[![Searchable Map Template iframe screenshot](https://raw.github.com/derekeder/FusionTable-Map-Template/master/images/searchable-map-template-iframe.png)](http://derekeder.github.io/FusionTable-Map-Template/iframe_test.html)
-
-[See the working demo &raquo;](http://derekeder.github.io/FusionTable-Map-Template/iframe_test.html)
-
-This template works exactly the same way as the standard full screen template. All the javascript code is still contained in `js/maps_lib.js`.
-
-To embed, you can use the following code on your page:
-
-```html
-<iframe 
-  style="border-style: none;" 
-  src="/path/to/map-template/index_iframe.html" 
-  width="600" 
-  height="950" >
-</iframe>
-```
-
-You must explicitly set the size of the iframe, so midify the `height` and `width` attributes as necessary. You can also control the height of the map in `css/custom.css`:
-
-```css
-.iframe #map_canvas { height: 500px; }
-```
-
-## FusionTable-Map-2-layers
-
-If you want to create a map with two layers - one with points and another with polygons, take a look at Jack Dougherty's [FusionTable-Map-2-layers](https://github.com/JackDougherty/FusionTable-Map-2-layers), based on this template. It's a great place to start.
 
 ## Resources
 
